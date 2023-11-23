@@ -6,3 +6,4 @@
 
 AlwaysDay:
   Enabled: true
+  Status: "day" # you can set "day" or "night"
