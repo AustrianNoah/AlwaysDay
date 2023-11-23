@@ -1,0 +1,65 @@
+{
+  "name": "austriannoah/alwaysday",
+  "type": "project",
+  "description": "Makes Day on your Server",
+  "autoload": {
+    "psr-4": {
+      "AustrianNoah\\AlwaysDay\\": "src/AustrianNoah/EveryTime"
+    }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "muqsit/simplepackethandler",
+        "version": "0.1.2",
+        "source": {
+          "url": "https://github.com/Muqsit/SimplePacketHandler",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ivancraft623/languages",
+        "version": "0.0.2",
+        "source": {
+          "url": "https://github.com/IvanCraft623/languages",
+          "type": "git",
+          "reference": "main"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "customiesdevs/customies",
+        "version": "1.2.0",
+        "source": {
+          "url": "https://github.com/CustomiesDevs/Customies",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "bedrockplaymc/bedrock-protocol": "dev-master",
+
+    "customiesdevs/customies": "*",
+    "cortexpe/commando": "*",
+    "muqsit/simple-packet-handler": "*",
+    "ivancraft623/languages": "*",
+
+    "xxarox/bossbar-api": "dev-main",
+    "xxarox/forms": "dev-main",
+
+    "ext-gd": "*",
+    "ext-zip": "*"
+  },
+  "require-dev": {
+    "pocketmine/pocketmine-mp": "dev-stable"
+  }
+}
