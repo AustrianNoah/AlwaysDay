@@ -1,9 +1,0 @@
-
-
-# Config for the Plugin
-
-# @author: AustrianNoah
-
-AlwaysDay:
-  Enabled: true
-  Status: "day" # you can set "day" or "night"
